@@ -1,5 +1,3 @@
-function ScrapbookView() {
+export function ScrapbookView() {
     return(<></>)
 }
-
-export default ScrapbookView

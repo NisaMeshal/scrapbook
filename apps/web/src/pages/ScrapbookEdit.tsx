@@ -7,8 +7,6 @@
 // const token = searchParams.get("token");
 
 
-function ScrapbookEdit() {
+export function ScrapbookEdit() {
     return (<></>)
 }
-
-export default ScrapbookEdit

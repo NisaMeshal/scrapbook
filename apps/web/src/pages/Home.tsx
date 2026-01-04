@@ -1,5 +1,9 @@
-function Home () {
-    return (<></>)
-}
+import { PageWrapper } from "../components/PageWrapper"
 
-export default Home
+export function Home () {
+    return (<>
+        <PageWrapper>
+            <h1>Hello</h1>
+        </PageWrapper>
+    </>)
+}
