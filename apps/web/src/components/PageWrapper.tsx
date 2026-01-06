@@ -4,7 +4,7 @@ type PageWrapperProps = {
 
 export function PageWrapper( {children} :  PageWrapperProps) {
     return(
-        <div className="min-h-screen w-full bg-amber-50 font-montserrat">
+        <div className="min-h-screen w-full bg-amber-50 font-firasans font-light text-lg">
             {children}
         </div>
     )
